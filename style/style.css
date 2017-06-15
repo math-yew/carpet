@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  font-family: sans-serif; }
+
+div {
+  margin: 0;
+  margin: 0; }
+
+h1 {
+  font-size: 70px;
+  margin: 0; }
+
+h2 {
+  font-size: 30px;
+  margin: 0; }
+
+section {
+  margin: 0;
+  overflow: hidden; }
+
+.font-2 {
+  font-family: 'Raleway'; }
+
+#first {
+  background: url(".././images/carpet-1.jpg");
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  text-shadow: 2px 2px 12px #8B4513; }
+
+.center {
+  width: 80%;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.white {
+  color: white; }
+
+.section-header {
+  position: relative;
+  padding: 50px; }
+
+#second {
+  width: 100%;
+  height: 80vh;
+  color: #8B4513;
+  font-size: 20px; }
+
+.half {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden; }
+
+.left-half {
+  background: url(".././images/mosaic-1.png") fixed;
+  background-color: #7d5f4a;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain; }
+
+.right-half {
+  height: 100%; }
+
+.trans {
+  width: 100%;
+  height: 100%;
+  background: url(".././images/trans-3.png");
+  background-size: 50%;
+  background-attachment: local;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10; }
+
+#third {
+  width: 100%;
+  height: 80vh;
+  background: url(".././images/carpet-2.jpeg") fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  z-index: 0; }
+
+.left-third {
+  width: calc(100%/3);
+  height: 100%;
+  float: left;
+  position: relative;
+  color: #5e2f0d; }
+
+.color-1 {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+  opacity: .6; }
+
+.middle-third {
+  width: calc(100%/3);
+  height: 100%;
+  float: left;
+  position: relative;
+  z-index: 2; }
+
+.color-2 {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: #644c3b;
+  opacity: .7; }
+
+.right-third {
+  width: calc(100%/3);
+  height: 100%;
+  float: left;
+  position: relative;
+  color: black; }
+
+.color-3 {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: #c4ac9b;
+  opacity: .8; }
+
+#fourth {
+  width: 100%;
+  min-height: 30vh;
+  background-color: #cebaab;
+  display: inline-block;
+  position: relative;
+  font-size: 28px;
+  position: relative;
+  overflow: hidden;
+  padding: 0px; }
+
+#fifth {
+  width: 100%;
+  height: 80vh;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  color: #3d2e24; }
+
+#sixth {
+  width: 100%;
+  height: 80vh;
+  background-color: #3d2e24;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  color: white; }
+
+.index-2 {
+  z-index: 2; }
+
+.sixth-image {
+  width: 100%;
+  height: 100%;
+  background: url(".././images/carpet-3.jpg") fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2; }
+
+.location {
+  width: 100%;
+  height: 100%; }
+
+.location ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.social {
+  position: relative;
+  height: 20px; }
+
+.horiz-center {
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  float: left; }
+
+.horiz-width {
+  width: 400px; }
+
+footer {
+  width: 100%;
+  background-color: #3d2e24;
+  margin: 0;
+  padding: 1px;
+  text-align: center;
+  color: white; }
+
+.light-button {
+  min-width: 10px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: transparent;
+  border: normal solid white;
+  /*border-color: white*/
+  color: white;
+  font-size: 30px;
+  border-radius: 7px;
+  transition: .5s; }
+
+.light-button:hover {
+  background-color: white;
+  color: #48240a; }
+
+.slide {
+  transform: translateX(150%);
+  font-family: serif;
+  transition: 2s; }
+
+.fade {
+  opacity: 0;
+  transition: 2.5s; }
+
+.fade2 {
+  top: 100px; }
+
+nav {
+  position: fixed;
+  z-index: 5;
+  background-color: transparent;
+  width: 100%;
+  trasition: 1s; }
+
+.nav-left {
+  float: left;
+  height: 40px;
+  position: relative; }
+
+.logo {
+  position: absolute;
+  display: inline;
+  width: 300px;
+  height: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  font-size: 32px;
+  font-family: Times;
+  text-decoration: none;
+  color: #c4ac9b; }
+
+.nav-bar {
+  width: 100%;
+  position: relative; }
+
+.nav-bar ul {
+  width: 70%;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  transition: 1s;
+  float: right; }
+
+.nav-bar li {
+  width: 20%;
+  border-bottom: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  display: inline-block;
+  margin-right: -4px;
+  padding: 0px; }
+
+.nav-bar a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .7s background-color; }
+
+.nav-bar a:hover {
+  background-color: #8B4513; }
+
+.nav-bar a.active {
+  background-color: #fff;
+  color: #3d2e24;
+  cursor: default; }
+
+.hamburger {
+  height: 20px;
+  widows: auto;
+  display: none;
+  padding: 10px;
+  float: right; }
+  .hamburger .hamburger:hover ~ .nav-bar {
+    display: inline;
+    background-color: #3d2e24; }
+  .hamburger .nav-bar:hover {
+    display: inline;
+    background-color: #3d2e24;
+    transition: .5s; }
+  .hamburger .map-container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    float: left; }
+
+@media (max-width: 700px) {
+  .nav-bar li {
+    width: 17%;
+    font-size: 1em; } }
+
+@media (max-width: 600px) {
+  .nav-bar {
+    display: none;
+    transition: .5s; }
+  .nav-bar ul {
+    width: 100%; }
+  .nav-bar li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #888; }
+  .hamburger {
+    display: inline-block; }
+  #second {
+    height: 130vh; }
+  .half {
+    width: 100%; }
+  .left-half {
+    height: 40vh; }
+  #third {
+    height: 150vh; }
+  .left-third, .middle-third, .right-third {
+    height: 50vh;
+    width: 100%; }
+  #fourth {
+    height: 70vh; }
+  #fifth {
+    height: 120vh; }
+  .map-container {
+    height: 100vw; }
+  .trans {
+    display: none; }
+  .hamburger:hover ~ .nav-bar {
+    display: inline;
+    background-color: #3d2e24; }
+  .nav-bar:hover {
+    display: inline;
+    transition: .5s; } }
